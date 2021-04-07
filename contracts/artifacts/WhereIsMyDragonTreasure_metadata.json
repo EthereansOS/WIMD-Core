@@ -1,0 +1,233 @@
+{
+	"compiler": {
+		"version": "0.7.4+commit.3f05b770"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "source",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "legendaryCard",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "legendaryCardAmount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "startBlock",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "data",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "singleReward",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "startBlock",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "redeemed",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "objectIds",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "amounts",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"name": "onERC1155BatchReceived",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "objectId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"name": "onERC1155Received",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes4",
+						"name": "interfaceId",
+						"type": "bytes4"
+					}
+				],
+				"name": "supportsInterface",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"localhost/contracts/WhereIsMyDragonTreasure.sol": "WhereIsMyDragonTreasure"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"localhost/contracts/WhereIsMyDragonTreasure.sol": {
+			"keccak256": "0xc54f0ae74dcbb0e90ca0034a8a114ed62ac2d8f5835ee1aa9a0176341b3bd009",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cb483e727857fe719d9bbeec60445ff205e7ae3d9a4015097f4f4e8964c4de90",
+				"dweb:/ipfs/QmRGfg4kkA1QgSsx9aXEmaiBdNKokMapCZ45twMbYKRcz9"
+			]
+		},
+		"localhost/contracts/util/ERC165.sol": {
+			"keccak256": "0x8a2e4727ecfc9b1fe071ba4d24b38cd1ee96dd2f3856736aabaf518a43288d91",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a4bb2d2c805f288e79712c38739647bf8972818b113692bbf210576debced20c",
+				"dweb:/ipfs/QmUpG4fwWhuqcjUjqs6vRb58CCpU2Vn8MsAMGsu2LxPucB"
+			]
+		},
+		"localhost/contracts/util/IERC1155Receiver.sol": {
+			"keccak256": "0x3b3e82c604d5336a5f002d61e3dffffcc5f4b7415255d7521faf5d0220a210a6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://11623c9b1b0f6a727e9c72f2e0a1f77a6eb15625a57b649566ba3b4d39ff0d85",
+				"dweb:/ipfs/QmUJPveAYvcTaUFrr26y7TG7mZoLZ9FB75PVnhmPTYAGAw"
+			]
+		},
+		"localhost/contracts/util/IERC165.sol": {
+			"keccak256": "0xa0941ac4db5fb31b3d3759b5320f489392c14004830ddd297ff60f7a9f41f4d3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d48bd6555c19a2196e0688717c826eb1b01bfd78f2d53b6723f5be65162bdf66",
+				"dweb:/ipfs/QmSjaErEfCoAM54c9xvj5jGCjH2Rbrscer4zrYLPqLhzMp"
+			]
+		},
+		"localhost/contracts/util/IEthItem.sol": {
+			"keccak256": "0x92ceeee0d7aa1c0b93eed56b2c3f0d6970e4077e6f0c1618118c6db8596ee5fc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1212285a456635891791b32bcefa52ae39a5c27d194c90fc9be5ecc599b6807c",
+				"dweb:/ipfs/QmVfvXXMe4vpZyVEfopFA4jXsLhUWcSTbeV3dpW3FHZ6ry"
+			]
+		}
+	},
+	"version": 1
+}
